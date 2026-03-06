@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiahe Yang - 个人主页</title>
+    <style>
+        /* 全局样式：简约干净 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        /* 头像样式 */
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+            border: 4px solid #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        /* 名字样式 */
+        .name {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        /* 简介样式 */
+        .bio {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        /* 链接区域 */
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        .link {
+            text-decoration: none;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .link:hover {
+            background-color: #2980b9;
+        }
+        /* 板块样式 */
+        .section {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 22px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        .section p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头像（后续你换自己的图片链接就行） -->
+    <img src="https://picsum.photos/200/200" class="avatar" alt="Jiahe Yang 头像">
+    
+    <!-- 你的名字 -->
+    <h1 class="name">Jiahe Yang</h1>
+    
+    <!-- 简介（可修改） -->
+    <p class="bio">热爱生活，持续成长 | 分享我的日常与思考</p>
+    
+    <!-- 社交链接（后续替换成你的链接） -->
+    <div class="links">
+        <a href="https://github.com/你的账号" class="link">GitHub</a>
+        <a href="https://weixin.qq.com/你的微信" class="link">微信</a>
+        <a href="mailto:你的邮箱@xxx.com" class="link">邮箱</a>
+    </div>
+    
+    <!-- 关于我板块 -->
+    <div class="section">
+        <h2>关于我</h2>
+        <p>大家好，我是 Jiahe Yang，很高兴认识你～</p>
+        <p>这是我的个人主页，后续会分享更多关于我的故事、兴趣和作品。</p>
+    </div>
+    
+    <!-- 我的兴趣板块 -->
+    <div class="section">
+        <h2>我的兴趣</h2>
+        <p>📚 阅读 | 🖥️ 编程 | 🚶 散步 | ☕ 咖啡</p>
+    </div>
+</body>
+</html>
